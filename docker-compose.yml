@@ -3,5 +3,5 @@ services:
     build: .
     image: hello-docker:1.0
     ports:
-      - "9191:8080"
+      - "80:8080"
     restart: always
